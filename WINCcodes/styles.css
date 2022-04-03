@@ -1,0 +1,94 @@
+body {
+    color: rgb(34, 32, 30) ;font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    background-color: rgb(129, 242, 250);
+    margin: 3px;
+    
+    
+}
+.black-border {
+    border: 5px solid rgb(126, 7, 245);
+    border-radius: 10px;
+}
+#green-background {
+    background-color: rgb(113, 238, 113); filter:opacity(80%);
+}
+#red-background {
+    background-color: rgb(235, 20, 49); 
+}
+.insideborder { 
+    border: 3px solid rgb(126, 7, 245);
+    border-radius: 5px;
+
+}
+
+@media (min-width: 768px) {
+    body {background-color: rgb(245, 170, 31); font-size: 80%; line-height: 120%; } 
+
+}
+@media (min-width:1024px) {
+    body {background-color: darkcyan; color:antiquewhite; font-size: 70%; line-height: 180%; }
+    body {font-size: 65%;}
+    #green-background {
+        background-color: blueviolet;
+    }
+}
+    
+img {
+    filter:opacity(80%);
+    filter:sepia(80%)
+}
+h1 {
+    text-shadow: 2px 2px #f8a8d4;
+    margin: 10px,10px,10px,10px;
+    padding: .5em;
+  }
+  
+
+
+ul  {
+      list-style-type: none;
+      margin: auto;
+      padding: 2px;
+
+      width: 24%;
+      height:fit-content;
+      position: fixed;
+      overflow: auto;
+      border: 3px solid rgb(187, 1, 94);
+      border-radius: 5px;
+      background-color: #f8a8d4;
+      
+      }
+      @media (min-width: 768px){
+          ul {background-color: aqua;}
+      }
+      
+  }
+li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+    
+    
+    
+
+
+
+li a.active {
+    background-color: rgb(190, 79, 190);
+    color: white
+}
+li a:hover {
+    background-color: rgb(117, 44, 119);
+    color: white
+}
+footer {
+    background-color: blanchedalmond;
+    align-content: auto;
+    margin: 10px;
+}
+main {
+    margin: 10px;
+}

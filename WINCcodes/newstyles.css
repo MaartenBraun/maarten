@@ -1,0 +1,7 @@
+body {
+  color: brown;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.black-border {
+    border: 2px solid rgb(11, 1, 20);
+}
